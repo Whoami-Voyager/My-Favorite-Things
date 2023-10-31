@@ -1,15 +1,15 @@
 body {
     color: Black;
     background-color: seashell;
-    float:left;
     margin: auto;
 }
 
-h1 {
+body > h1 {
     text-align: center;
 }
 
-img {
-    float:right;
-    margin: auto;
+#F-22 {
+    text-align:center;
+    padding-top: 100px;
 }
+
