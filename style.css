@@ -8,22 +8,23 @@ body > h1 {
 }
 
 #F-22 {
-    padding-top: 100px;
+    padding: 100px 10% 0 10%;
     font-size: large;
 }
 
-#F-22 > p {
-    text-align: left;
-    width: 750px;
-    padding-left: 10%;
-}
-
 #F-22 > img {
-    float: inline-end;
-    text-align: center;
-    padding-right: 15%;
-}
+    float: right;
+    margin-left: 50px;
+    width:1000px;
+    height:800px;
+ }
 
 #F-22 > h2 {
     text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: navy;
+    border-bottom: 2px solid navy;
+    padding-bottom: 10px;
 }
