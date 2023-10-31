@@ -1,4 +1,15 @@
 body {
     color: Black;
     background-color: seashell;
+    float:left;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    float:right;
+    margin: auto;
 }
