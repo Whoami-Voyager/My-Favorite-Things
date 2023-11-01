@@ -35,6 +35,25 @@ div {
     position: relative;
  }
 
+ @keyframes moveFlying {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    100% {
+      top: 0;
+      left: 0;
+    }
+  }
+
+ .animated {
+    position: relative; 
+    animation-name: moveFlying;
+    animation-duration: 1s; /* Duration of the animation */
+    animation-timing-function: ease-in; 
+    animation-fill-mode: forwards;
+  }
+  
 #F-22 > h2 {
     text-align: center;
     font-size: 2em;
