@@ -74,6 +74,14 @@ div {
     padding-bottom: 10px;
 }
 
+#Drive {
+    float: right;
+    padding-right: 3%;
+    width: 10%;
+    height: 12%;
+    position: relative;
+ }
+
 #F40 > h2 {
     text-align: center;
     font-size: 2em;
