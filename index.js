@@ -1,14 +1,14 @@
 const flyingElement = document.getElementById("Flying");
+let isAnimating = false;
 
 flyingElement.addEventListener("click", function() {
-  // Check if the animated class is already applied
-  if (!flyingElement.classList.contains("animated")) {
-    // Add the animated class to trigger the animation
+  if (!isAnimating) {
+    isAnimating = true;
     flyingElement.classList.add("animated");
 
-    // Remove the animated class after the animation is complete
     setTimeout(() => {
       flyingElement.classList.remove("animated");
-    }, 4); 
+      isAnimating = false;
+    }, 4000);
   }
 });
