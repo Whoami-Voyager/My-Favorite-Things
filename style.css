@@ -1,7 +1,6 @@
 body {
     color: Black;
     background-color: seashell;
-    
 }
 
 body > h1 {
@@ -15,11 +14,15 @@ div {
     height: 900px;
 }
 
-img {
+.page {
     float: right;
     margin-left: 50px;
     width:1000px;
     height:800px;
+ }
+
+ #Flying {
+    
  }
 
 #F-22 > h2 {
