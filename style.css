@@ -40,16 +40,26 @@ div {
       top: 0;
       left: 0;
     }
+
+    50% {
+        top: 0;
+        left: 0;
+        transform: translate(-200%, -10%);
+        transform: rotate(-20%);
+    }
+
     100% {
       top: 0;
       left: 0;
+      transform: translate(-1000%, -500%);
+      transform: rotate(-20%);
     }
-  }
+  }  
 
  .animated {
     position: relative; 
     animation-name: moveFlying;
-    animation-duration: 1s; /* Duration of the animation */
+    animation-duration: 4000ms; /* Duration of the animation */
     animation-timing-function: ease-in; 
     animation-fill-mode: forwards;
   }
