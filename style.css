@@ -22,7 +22,10 @@ div {
  }
 
  #Flying {
-    
+    float: right;
+    padding-right: 3%;
+    width: 10%;
+    height: 10%;
  }
 
 #F-22 > h2 {
