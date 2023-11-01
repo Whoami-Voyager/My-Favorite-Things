@@ -20,12 +20,13 @@ div {
     width:1000px;
     height:800px;
  }
-
+ 
  #Flying {
     float: right;
     padding-right: 3%;
     width: 10%;
     height: 10%;
+    position: relative;
  }
 
 #F-22 > h2 {
