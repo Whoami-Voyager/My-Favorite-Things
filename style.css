@@ -1,18 +1,21 @@
 body {
     color: Black;
     background-color: seashell;
+    
 }
 
 body > h1 {
     text-align: center;
 }
 
-#F-22 {
+div {
     padding: 100px 10% 0 10%;
     font-size: large;
+    font-style: georgia;
+    height: 900px;
 }
 
-#F-22 > img {
+img {
     float: right;
     margin-left: 50px;
     width:1000px;
@@ -25,6 +28,16 @@ body > h1 {
     margin-top: 20px;
     text-transform: uppercase;
     color: navy;
-    border-bottom: 2px solid navy;
+    border-bottom: 10px solid black;
+    padding-bottom: 10px;
+}
+
+#F40 > h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #ff2800;
+    border-bottom: 10px solid black;
     padding-bottom: 10px;
 }
