@@ -39,7 +39,6 @@ div {
     position: relative; 
     animation-name: moveFlying ;
     animation-duration: 4000ms;
-    animation-timing-function: ease-in; 
     animation-fill-mode: forwards;
   }
 
@@ -47,18 +46,21 @@ div {
     0% {
       top: 0;
       left: 0;
+      animation-timing-function: ease-in;
     }
 
     50% {
         top: 0;
         left: 0;
         transform: translate(-200%, -10%) rotate(15deg);
+        animation-timing-function: linear;
     }
 
     100% {
       top: 0;
       left: 0;
       transform: translate(-1000%, -500%) rotate(25deg);
+      animation-timing-function: linear;
     }
   }  
 
