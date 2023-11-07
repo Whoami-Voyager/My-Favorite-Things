@@ -35,7 +35,15 @@ div {
     position: relative;
  }
 
- @keyframes moveFlying {
+ .animated {
+    position: relative; 
+    animation-name: moveFlying;
+    animation-duration: 4000ms;
+    animation-timing-function: ease-in; 
+    animation-fill-mode: forwards;
+  }
+
+   @keyframes moveFlying {
     0% {
       top: 0;
       left: 0;
@@ -45,25 +53,17 @@ div {
         top: 0;
         left: 0;
         transform: translate(-200%, -10%);
-        transform: rotate(-20%);
+        rotate: (15);
     }
 
     100% {
       top: 0;
       left: 0;
       transform: translate(-1000%, -500%);
-      transform: rotate(-20%);
+      transform: rotate(25);
     }
   }  
 
- .animated {
-    position: relative; 
-    animation-name: moveFlying;
-    animation-duration: 4000ms;
-    animation-timing-function: ease-in; 
-    animation-fill-mode: forwards;
-  }
-  
 #F-22 > h2 {
     text-align: center;
     font-size: 2em;
