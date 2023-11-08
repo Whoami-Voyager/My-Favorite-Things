@@ -35,6 +35,14 @@ div {
   position: relative;
 }
 
+#Drive {
+  float: right;
+  padding-right: 3%;
+  width: 10%;
+  height: 12%;
+  position: relative;
+}
+
 .animated-flying {
   position: relative;
   animation-name: moveFlying;
@@ -95,20 +103,22 @@ div {
   padding-bottom: 10px;
 }
 
-#Drive {
-  float: right;
-  padding-right: 3%;
-  width: 10%;
-  height: 12%;
-  position: relative;
-}
-
 #F40 > h2 {
   text-align: center;
   font-size: 2em;
   margin-top: 20px;
   text-transform: uppercase;
   color: #ff2800;
+  border-bottom: 10px solid black;
+  padding-bottom: 10px;
+}
+
+#BlackBird > h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: black;
   border-bottom: 10px solid black;
   padding-bottom: 10px;
 }
