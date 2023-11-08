@@ -1,93 +1,114 @@
 body {
-    color: Black;
-    background-color: seashell;
+  color: black;
+  background-color: seashell;
 }
 
 body > h1 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: #333;
-    padding: 20px;
-    background-color: #f2f2f2;
-    margin-top: 0;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin-top: 0;
 }
 
 div {
-    padding: 100px 10% 0 10%;
-    font-size: large;
-    font-style: georgia;
-    height: 900px;
+  padding: 100px 10% 0 10%;
+  font-size: large;
+  font-style: georgia;
+  height: 900px;
 }
 
 .page {
-    float: right;
-    margin-left: 50px;
-    width:1000px;
-    height:800px;
- }
+  float: right;
+  margin-left: 50px;
+  width: 1000px;
+  height: 800px;
+}
 
- #Flying {
-    float: right;
-    padding-right: 3%;
-    width: 10%;
-    height: 10%;
-    position: relative;
- }
+#Flying {
+  float: right;
+  padding-right: 3%;
+  width: 10%;
+  height: 10%;
+  position: relative;
+}
 
- .animated {
-    position: relative; 
-    animation-name: moveFlying ;
-    animation-duration: 4000ms;
-    animation-fill-mode: forwards;
-  }
+.animated-flying {
+  position: relative;
+  animation-name: moveFlying;
+  animation-duration: 4000ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
 
-   @keyframes moveFlying {
-    0% {
+.animated-driving {
+  position: relative;
+  animation-name: moveDriving;
+  animation-duration: 3000ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+@keyframes moveFlying {
+  0% {
       top: 0;
       left: 0;
-      animation-timing-function: ease-in;
-    }
+  }
 
-    29% {
-        top: 0;
-        left: 0;
-        transform: translate(-200%, -10%) rotate(15deg);
-        animation-timing-function: linear;
-    }
+  29% {
+      top: 0;
+      left: 0;
+      transform: translate(-200%, -10%) rotate(15deg);
+      animation-timing-function: linear;
+  }
 
-    100% {
+  100% {
       top: 0;
       left: 0;
       transform: translate(-1000%, -500%) rotate(25deg);
       animation-timing-function: linear;
-    }
-  }  
+  }
+}
+
+@keyframes moveDriving {
+  0% {
+      top: 0;
+      left: 0;
+  }
+
+  100% {
+      top: 0;
+      left: 0;
+      transform: translate(-1000%);
+  }
+}
 
 #F-22 > h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-top: 20px;
-    text-transform: uppercase;
-    color: navy;
-    border-bottom: 10px solid black;
-    padding-bottom: 10px;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: navy;
+  border-bottom: 10px solid black;
+  padding-bottom: 10px;
 }
 
 #Drive {
-    float: right;
-    padding-right: 3%;
-    width: 10%;
-    height: 12%;
-    position: relative;
- }
+  float: right;
+  padding-right: 3%;
+  width: 10%;
+  height: 12%;
+  position: relative;
+}
 
 #F40 > h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-top: 20px;
-    text-transform: uppercase;
-    color: #ff2800;
-    border-bottom: 10px solid black;
-    padding-bottom: 10px;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #ff2800;
+  border-bottom: 10px solid black;
+  padding-bottom: 10px;
 }
