@@ -122,3 +122,13 @@ div {
   border-bottom: 10px solid black;
   padding-bottom: 10px;
 }
+
+#Ford-GT > h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #b5c9d6;
+  border-bottom: 10px solid black;
+  padding-bottom: 10px;
+}
