@@ -1,6 +1,8 @@
 body {
   color: black;
   background-color: seashell;
+  height: auto;
+  width: auto;
 }
 
 body > h1 {
@@ -14,7 +16,7 @@ body > h1 {
 }
 
 div {
-  padding: 100px 10% 0 10%;
+  padding: 100px 10% 5% 10%;
   font-size: large;
   font-style: georgia;
   height: auto;
