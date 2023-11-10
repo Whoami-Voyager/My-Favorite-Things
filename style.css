@@ -17,7 +17,7 @@ div {
   padding: 100px 10% 0 10%;
   font-size: large;
   font-style: georgia;
-  height: 900px;
+  height: auto;
 }
 
 .page {
@@ -93,42 +93,27 @@ div {
   }
 }
 
-#F-22 > h2 {
+h2 {
   text-align: center;
   font-size: 2em;
   margin-top: 20px;
   text-transform: uppercase;
-  color: navy;
   border-bottom: 10px solid black;
   padding-bottom: 10px;
+}
+
+#F-22 > h2 {
+  color: navy;
 }
 
 #F40 > h2 {
-  text-align: center;
-  font-size: 2em;
-  margin-top: 20px;
-  text-transform: uppercase;
   color: #ff2800;
-  border-bottom: 10px solid black;
-  padding-bottom: 10px;
 }
 
 #BlackBird > h2 {
-  text-align: center;
-  font-size: 2em;
-  margin-top: 20px;
-  text-transform: uppercase;
   color: black;
-  border-bottom: 10px solid black;
-  padding-bottom: 10px;
 }
 
 #Ford-GT > h2 {
-  text-align: center;
-  font-size: 2em;
-  margin-top: 20px;
-  text-transform: uppercase;
   color: #b5c9d6;
-  border-bottom: 10px solid black;
-  padding-bottom: 10px;
 }
