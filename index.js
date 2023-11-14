@@ -1,5 +1,5 @@
-const flyingElement = document.getElementById("Flying");
-const drivingElement = document.getElementById("Drive");
+const flyingElement = document.getElementById("Flying", "Flying-2");
+const drivingElement = document.getElementById("Drive", "Drive-2");
 let isAnimatingFlying = false;
 let isAnimatingDriving = false;
 

@@ -31,19 +31,10 @@ div {
   height: 800px;
 }
 
-#Flying {
-  float: right;
-  padding-right: 3%;
+#Flying, #Drive {
   width: 10%;
   height: 10%;
-  position: relative;
-}
-
-#Drive {
   float: right;
-  width: 10%;
-  height: 10%;
-  position: relative;
 }
 
 .animated-flying {
