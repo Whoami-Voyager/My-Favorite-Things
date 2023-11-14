@@ -1,5 +1,7 @@
 const flyingElement = document.getElementById("Flying");
 const flyingElement2 = document.getElementById("Flying-2");
+const flyingElement3 = document.getElementById("Flying-3");
+
 const drivingElement = document.getElementById("Drive");
 const drivingElement2 = document.getElementById("Drive-2");
 
@@ -14,7 +16,7 @@ flyingElement.addEventListener("click", function() {
         setTimeout(() => {
             flyingElement.classList.remove("animated-flying");
             isAnimatingFlying = false;
-        }, 4000);
+        }, 6000);
     }
 });
 
@@ -26,7 +28,18 @@ flyingElement2.addEventListener("click", function() {
         setTimeout(() => {
             flyingElement2.classList.remove("animated-flying");
             isAnimatingFlying = false;
-        }, 4000);
+        }, 6000);
+    }
+});
+
+flyingElement3.addEventListener("click", function() {
+    if (!isAnimatingFlying) {
+        isAnimatingFlying = true;
+        flyingElement3.classList.add("animated-flying");
+
+        setTimeout(() => {
+            isAnimatingFlying = false;
+        }, 6000);
     }
 });
 
