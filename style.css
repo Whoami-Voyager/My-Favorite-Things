@@ -17,21 +17,23 @@ body > h1 {
 }
 
 div {
-  padding: 100px 10% 5% 10%;
+  padding: 100px 10% 0 10%;
   font-size: large;
-  font-style: georgia;
-  height: auto;
+  font-family: georgia;
+  height: 69%;
+  padding-bottom: 15%;
 }
 
 .page {
   float: right;
   margin-left: 50px;
   padding-top: 40px;
-  width: 1000px;
-  height: 800px;
+  width: 55%;
+  height: 55%;
+  padding-bottom: auto;
 }
 
-#Flying, #Drive {
+#Flying, #Flying-2, #Drive, #Drive-2 {
   width: 10%;
   height: 10%;
   float: right;
