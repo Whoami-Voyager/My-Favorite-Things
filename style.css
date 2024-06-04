@@ -7,7 +7,7 @@ body {
   font-size: 16px;
 }
 
-body > h1 {
+body>h1 {
   text-align: center;
   font-size: 3em;
   font-weight: bold;
@@ -38,7 +38,11 @@ div {
   padding-bottom: auto;
 }
 
-#Flying, #Flying-2, #Flying-3, #Drive, #Drive-2 {
+#Flying,
+#Flying-2,
+#Flying-3,
+#Drive,
+#Drive-2 {
   width: 10%;
   height: 10%;
   float: right;
@@ -62,35 +66,35 @@ div {
 
 @keyframes moveFlying {
   0% {
-      top: 0;
-      left: 0;
+    top: 0;
+    left: 0;
   }
 
   29% {
-      top: 0;
-      left: 0;
-      transform: translate(-200%, -10%) rotate(10deg);
-      animation-timing-function: linear;
+    top: 0;
+    left: 0;
+    transform: translate(-200%, -10%) rotate(10deg);
+    animation-timing-function: linear;
   }
 
   100% {
-      top: 0;
-      left: 0;
-      transform: translate(-1500%, -500%) rotate(20deg);
-      animation-timing-function: linear;
+    top: 0;
+    left: 0;
+    transform: translate(-1500%, -500%) rotate(20deg);
+    animation-timing-function: linear;
   }
 }
 
 @keyframes moveDriving {
   0% {
-      top: 0;
-      left: 0;
+    top: 0;
+    left: 0;
   }
 
   100% {
-      top: 0;
-      left: 0;
-      transform: translate(-1500%);
+    top: 0;
+    left: 0;
+    transform: translate(-1500%);
   }
 }
 
@@ -103,22 +107,22 @@ h2 {
   padding-bottom: 10px;
 }
 
-#F-22 > h2 {
+#F-22>h2 {
   color: navy;
 }
 
-#F40 > h2 {
+#F40>h2 {
   color: #ff2800;
 }
 
-#BlackBird > h2 {
+#BlackBird>h2 {
   color: black;
 }
 
-#Ford-GT > h2 {
+#Ford-GT>h2 {
   color: #b5c9d6;
 }
 
-#P-51Mustang > h2 {
+#P-51Mustang>h2 {
   color: #eecf20
 }

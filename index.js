@@ -8,7 +8,7 @@ const drivingElement2 = document.getElementById("Drive-2");
 let isAnimatingFlying = false;
 let isAnimatingDriving = false;
 
-flyingElement.addEventListener("click", function() {
+flyingElement.addEventListener("click", function () {
     if (!isAnimatingFlying) {
         isAnimatingFlying = true;
         flyingElement.classList.add("animated-flying");
@@ -20,7 +20,7 @@ flyingElement.addEventListener("click", function() {
     }
 });
 
-flyingElement2.addEventListener("click", function() {
+flyingElement2.addEventListener("click", function () {
     if (!isAnimatingFlying) {
         isAnimatingFlying = true;
         flyingElement2.classList.add("animated-flying");
@@ -32,7 +32,7 @@ flyingElement2.addEventListener("click", function() {
     }
 });
 
-flyingElement3.addEventListener("click", function() {
+flyingElement3.addEventListener("click", function () {
     if (!isAnimatingFlying) {
         isAnimatingFlying = true;
         flyingElement3.classList.add("animated-flying");
@@ -43,7 +43,7 @@ flyingElement3.addEventListener("click", function() {
     }
 });
 
-drivingElement.addEventListener("click", function() {
+drivingElement.addEventListener("click", function () {
     if (!isAnimatingDriving) {
         isAnimatingDriving = true;
         drivingElement.classList.add("animated-driving");
@@ -55,7 +55,7 @@ drivingElement.addEventListener("click", function() {
     }
 });
 
-drivingElement2.addEventListener("click", function() {
+drivingElement2.addEventListener("click", function () {
     if (!isAnimatingDriving) {
         isAnimatingDriving = true;
         drivingElement2.classList.add("animated-driving");
